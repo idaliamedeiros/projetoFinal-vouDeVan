@@ -65,7 +65,7 @@ const deletePraia = async (req, res) => {
     try {
         const { id } = req.params
         await praiasModel.findByIdAndDelete(req.params.id)
-        const message = `Praia com ${id}, foi removida!`
+        const message = `Praia ${id}, foi removida!`
 
         res.status(200).json(message)
 

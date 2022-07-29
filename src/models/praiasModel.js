@@ -6,13 +6,13 @@ const praiaSchema = new mongoose.Schema({
         type: mongoose.Types.ObjectId,
         default: mongoose.Types.ObjectId
     },
-    nome: { type: String, required: true },
+    nome: { type: String,required: true },
     distanciaKm: { type: Number, required: true },
     passaVan: { type: Boolean, required: true },
     precoReal: { type: Number, required: true },
     gostou: { type: Boolean, required: true },
 
-}, { timestamps: true })
+})// , { timestamps: true }) - registro temporal 
 
 const Model = mongoose.model('praias', praiaSchema)
 

@@ -1,9 +1,9 @@
 <h1 align="center">
-    <br>
-    <p align="center">  VOU DE VAN 🚍<p>
-</h1></br>
 
 ![image](https://user-images.githubusercontent.com/81125505/181950650-519515a2-6eae-4d55-9fa8-0012b93931f1.png)
+
+</h1>
+
 
 <h2> 💜 
 Projeto Final - Desenvolvimento Back-end - Todas em Tech | On16 💜</h2>

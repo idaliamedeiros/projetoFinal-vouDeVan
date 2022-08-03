@@ -12,7 +12,7 @@ const praiaSchema = new mongoose.Schema({
     precoReal: { type: Number, required: true },
     gostou: { type: Boolean, required: true },
 
-})// , { timestamps: true }) - registro temporal 
+})
 
 const Model = mongoose.model('praias', praiaSchema)
 
